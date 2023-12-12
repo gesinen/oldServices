@@ -1,0 +1,7 @@
+{
+    "host" : "localhost",
+    "user" : "root",
+    "password" : "Al8987154St12",
+    "database" : "gateway_platform_test",
+	"port" : "3306"
+}

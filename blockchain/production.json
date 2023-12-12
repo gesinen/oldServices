@@ -1,0 +1,22 @@
+{
+    "appName":"HashToNFT",
+    "version": "v0.9",
+    "x-token":"main",
+    "mnemonic":"some production text",
+    "network":{
+        "value": "mainnet",
+        "apiToken": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "betanet": {
+          "node":"http://betanet-api.algonode.network",
+          "indexer":"https://betanet-idx.algonode.cloud"  
+        },
+        "testnet": {
+            "node":"http://testnet-api.algonode.network",
+            "indexer":"https://testnet-idx.algonode.cloud"
+          },
+        "mainnet": {
+            "node":"http://mainnet-api.algonode.network",
+            "indexer":"https://mainnet-idx.algonode.cloud"
+        }
+    }
+}
